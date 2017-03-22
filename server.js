@@ -3,7 +3,7 @@ const session = require('express-session');
 const passport = require('passport');
 const FacebookStrategy = require('passport-facebook');
 const bodyParser = require('body-parser');
-const config = require('./config')
+const config = require('./configIt')
 const port = 8000;
 
 
